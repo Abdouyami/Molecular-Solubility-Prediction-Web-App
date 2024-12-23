@@ -53,5 +53,5 @@ The live version of the app can be accessed here:
 ## Model Details
 The machine learning model used for prediction is based on molecular descriptors and was trained using the ESOL dataset. The model is saved using pickle and is loaded within the app to make predictions.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
