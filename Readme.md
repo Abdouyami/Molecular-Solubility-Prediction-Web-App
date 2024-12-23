@@ -35,7 +35,7 @@ To run this app locally, you will need the following Python packages:
 You can install the necessary libraries by running the following command:
 ```bash
    pip install -r requirements.text
-
+```
 ## Running the App Locally
 
 1. Clone this repository to your local machine.
