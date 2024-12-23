@@ -101,7 +101,11 @@ X[1:] # Skips the dummy first item
 ######################
 
 # Reads in saved model
-load_model = pickle.load(open('solubility_model.pkl', 'rb'))
+try:
+    load_model = pickle.load(open('solubility_model.pkl', 'rb'))
+except FileNotFoundError:
+    st.error("Model file not found. Please upload the model.")
+    load_model = None
 
 # Apply model to make predictions
 prediction = load_model.predict(X)
