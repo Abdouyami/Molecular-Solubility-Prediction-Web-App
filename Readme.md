@@ -48,7 +48,7 @@ You can install the necessary libraries by running the following command:
 
 ## Live Version
 The live version of the app can be accessed here:  
-**[Molecular Solubility Prediction Web App](https://link-to-your-web-app)**
+**[Molecular Solubility Prediction Web App](https://abdouyami-molecular-solubility-prediction-solubility-app-fm8idf.streamlit.app/)**
 
 ## Model Details
 The machine learning model used for prediction is based on molecular descriptors and was trained using the ESOL dataset. The model is saved using pickle and is loaded within the app to make predictions.
